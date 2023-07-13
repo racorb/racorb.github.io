@@ -15,12 +15,12 @@ const Features = () => {
                 {
                     data.features.map((feature, index) => {
                         return (
-                            <div className="features-item text-center" key={index}>
+                            <div className="features-item text-center" key={index} data-aos="zoom-in">
                                 <div className="features-item-icon">
                                     <img src={feature.icon} alt="features icon" className="mx-auto" />
                                 </div>
                                 <div className="features-item-text">
-                                    <h2>{feature.title}</h2>
+                                    <h2 className="text-cap">{feature.title}</h2>
                                     <p className="text mx-auto">
                                         {feature.text}
                                     </p>

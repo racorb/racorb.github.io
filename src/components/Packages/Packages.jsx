@@ -15,7 +15,7 @@ const Packages = () => {
                 {
                     data.packages.map((packg, index) => {
                         return (
-                            <div className="package-item text-center mx-auto" key={index}>
+                            <div className="package-item text-center mx-auto" key={index} data-aos="fade-up" data-aos-duration="3000">
                                 <h3 className="package-item-title">{packg.type}</h3>
                                 <ul className="package-item-list">
                                     {

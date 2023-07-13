@@ -14,10 +14,10 @@ const WhatWeDo = () => {
                     data.what_we_do.map((whatItem, index) => {
                         return (
                             <div className="what-we-do-item grid text-center" key={index}>
-                                <div className="what-we-do-item-left">
+                                <div className="what-we-do-item-left"  data-aos="fade-right">
                                     <img src={whatItem.image} alt="" className="mx-auto"/>
                                 </div>
-                                <div className="what-we-do-item-right">
+                                <div className="what-we-do-item-right" data-aos="fade-left">
                                     <h4 className="text-upper fs-20">{whatItem.title}</h4>
                                     <p className="text mx-auto">{whatItem.paragraph}</p>
                                     <a href="#" className="btn btn-red">view more</a>

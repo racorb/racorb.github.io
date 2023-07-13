@@ -32,19 +32,19 @@ const Navbar = () => {
                   <a href="#what-we-do" className="nav-link">what we do</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">features</a>
+                  <a href="#features" className="nav-link">features</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">packages</a>
+                  <a href="#packages" className="nav-link">packages</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">projects</a>
+                  <a href="#projects" className="nav-link">projects</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">teams</a>
+                  <a href="#teams" className="nav-link">teams</a>
                 </li>
                 <li className="nav-item">
-                  <a href="#" className="nav-link">support</a>
+                  <a href="#support" className="nav-link">support</a>
                 </li>
               </ul>
             </div>
