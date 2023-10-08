@@ -1,4 +1,5 @@
 import React from "react";
+import HerImg from "../img/hero-img.svg";
 
 const Hero = () => {
   return (
@@ -17,11 +18,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="col-lg-6 order-1 order-lg-2 hero-img">
-            <img
-              src="assets/img/hero-img.svg"
-              className="img-fluid animated"
-              alt=""
-            />
+            <img src={HerImg} className="img-fluid animated" alt="" />
           </div>
         </div>
       </div>

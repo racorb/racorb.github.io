@@ -45,6 +45,11 @@ const Header = () => {
         <nav id="navbar" className={Toggle ? "navbar navbar-mobile" : "navbar"}>
           <ul>
             <li>
+              <a class="nav-link scrollto active" href="#hero">
+                Home
+              </a>
+            </li>
+            <li>
               <a className="nav-link scrollto" href="#about">
                 About Us
               </a>
