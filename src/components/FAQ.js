@@ -6,11 +6,6 @@ const FAQ = () => {
   return (
     <section id="faq" className="faq section-bg">
       <div className="container" data-aos="fade-up">
-        <div className="section-title">
-          <h2>F.A.Q</h2>
-          <p></p>
-        </div>
-
         <SectionTitle title="F.A.Q" subtitle="Frequently Asked Questions" />
 
         <ul className="faq-list">

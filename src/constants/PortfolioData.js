@@ -7,6 +7,7 @@ import portfolio6 from "../img/portfolio/portfolio-6.jpg";
 import portfolio7 from "../img/portfolio/portfolio-7.jpg";
 import portfolio8 from "../img/portfolio/portfolio-8.jpg";
 import portfolio9 from "../img/portfolio/portfolio-9.jpg";
+import rashad_home from "../img/portfolio/rashad_home.png";
 
 export const portfolioData = [
   {
@@ -70,6 +71,13 @@ export const portfolioData = [
     image: portfolio9,
     title: "Morning Breakfast",
     category: "app",
+    url: "https://rashadalakbarov.netlify.app/",
+  },
+  {
+    id: 10,
+    image: rashad_home,
+    title: "Rashad Alakbarov",
+    category: "web",
     url: "https://rashadalakbarov.netlify.app/",
   },
 ];

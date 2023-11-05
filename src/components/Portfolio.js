@@ -26,7 +26,7 @@ const Portfolio = () => {
     <section id="portfolio" className="portfolio">
       <div className="container">
         <SectionTitle
-          title="Portfolio"
+          title="Our Portfolio"
           subtitle="Check out our beautifull portfolio"
         />
 
@@ -62,6 +62,7 @@ const Portfolio = () => {
                   <img src={portfolioItem.image} className="img-fluid" alt="" />
                   <div className="portfolio-links">
                     <a
+                      target="_blank"
                       href={portfolioItem.image}
                       data-gallery="portfolioGallery"
                       className="portfolio-lightbox"
@@ -69,7 +70,11 @@ const Portfolio = () => {
                     >
                       <i className="bi bi-eye"></i>
                     </a>
-                    <a href={portfolioItem.url} title="More Details">
+                    <a
+                      target="_blank"
+                      href={portfolioItem.url}
+                      title="More Details"
+                    >
                       <i className="bi bi-link"></i>
                     </a>
                   </div>

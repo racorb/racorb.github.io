@@ -6,7 +6,10 @@ const Team = () => {
   return (
     <section id="team" className="team">
       <div className="container">
-        <SectionTitle title="Team" subtitle="Our team is always here to help" />
+        <SectionTitle
+          title="Our Team"
+          subtitle="Our team is always here to help"
+        />
 
         <div className="row">
           {teamData.map((member, index) => {

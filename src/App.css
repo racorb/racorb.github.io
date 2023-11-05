@@ -906,6 +906,7 @@ section {
   background: #343a40;
   position: relative;
   overflow: hidden;
+  border-radius: 7px;
 }
 
 .team .member .member-info {
